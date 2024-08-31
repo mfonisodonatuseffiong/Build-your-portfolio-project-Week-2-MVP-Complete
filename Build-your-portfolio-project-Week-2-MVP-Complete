@@ -1,0 +1,39 @@
+Build Your Portfolio Project (Week 2): MVP Complete
+Mfoniso Donatus Effiong
+Sep 2, 2024
+
+EasyShop: Simple E-Commerce Website
+Overview:
+EasyShop is a streamlined e-commerce platform developed to simplify the process of setting up and managing online stores for small to medium-sized businesses. The project is built using HTML, CSS, JavaScript (with Bootstrap for responsive design) on the front end, and Python (Flask) with SQLAlchemy (SQLite) on the back end. The primary goal of EasyShop is to provide an intuitive and user-friendly experience for both store owners and customers, allowing businesses to efficiently manage products, orders, and customer interactions.
+Key Features:
+Product Management: Store owners can easily add, update, and delete products from their inventory. Each product entry includes details such as name, description, price, and stock availability.
+Order Processing: The platform supports seamless order placement, tracking, and management. Customers can browse products, add them to their cart, and proceed to checkout. Store owners can manage orders, update statuses, and notify customers of their order progress.
+User Authentication: EasyShop includes a secure login system for both store owners and customers. Customers can create accounts to save their purchase history and store owners have access to an admin panel for managing their store.
+Responsive Design: The front end is built with Bootstrap, ensuring that the website is fully responsive and accessible on various devices, including desktops, tablets, and smartphones.
+
+Progress:
+Progress Rating: 7/10
+Explanation: This week, we successfully integrated the core functionalities of EasyShop, including product management, user authentication, and order processing. The basic structure of the front end is complete, and the back-end logic for handling orders is functional. However, there are still a few features that need to be finalized, and some areas require further testing.
+Completed Parts:
+The product management system is fully implemented, allowing store owners to manage their inventory.
+The user authentication system is operational, with separate access controls for customers and store owners.
+The front-end design is responsive, ensuring usability across different devices.
+Incomplete Aspects:
+Payment gateway integration is still pending; currently, orders can be placed, but payments are not yet processed.
+Automated email notifications for order confirmations and status updates are in progress.
+Some UI/UX enhancements, such as improving the checkout flow and product filtering options, need further refinement.
+
+Challenges:
+Technical Challenge:
+The most difficult technical challenge this week was integrating the back-end logic for managing orders with the front-end user interface. Ensuring that the order data flows correctly between the client and server, and updating the database in real-time without causing conflicts, required careful handling of asynchronous requests and database transactions.
+Non-Technical Challenge:
+Time management was the most challenging non-technical aspect. Balancing the workload between developing new features and refining existing ones was difficult, especially with the limited timeframe. To address this, we prioritized the most critical features needed for the MVP and deferred less essential tasks to later stages.
+
+Screenshots:
+Store Owner Dashboard:
+https://imgur.com/a/mzrDDg0
+A screenshot showing the admin dashboard where store owners can manage products, view orders, and access customer details.
+Customer Product Page:
+https://imgur.com/a/Pltn0bO
+A screenshot showing the customer-facing product page with options to add items to the cart and proceed to checkout.
+
